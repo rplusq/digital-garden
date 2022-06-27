@@ -29,6 +29,12 @@ module.exports = {
 				dark: '#6989be'
 			}
 		},
+		screens: {
+			sm: '700px',
+			md: '900px',
+			lg: '1500px',
+			xl: '1920px'
+		},
 		extend: {
 			fontFamily: {
 				sans: ['Avenir Next', ...defaultTheme.fontFamily.sans]

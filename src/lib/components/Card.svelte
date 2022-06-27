@@ -1,5 +1,5 @@
 <script lang="ts">
-	import format from 'date-fns/format';
+	import format from 'date-fns/format/index.js';
 	type PlantLevel = 'seeding' | 'budding' | 'evergreen';
 	export let date: Date;
 	export let title: string;

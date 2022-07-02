@@ -7,6 +7,10 @@
 	import WaveSrc from '$lib/assets/wave.svg';
 </script>
 
+<svelte:head>
+	<title>Rafael Quintero</title>
+</svelte:head>
+
 <section class="bg-pink-light bg-opacity-50 sm:bg-blue-light">
 	<div class="p-7 pb-0 sm:px-24 sm:pt-14">
 		<p class="mb-4 text-3xl font-bold text-gray-dark sm:text-5xl">Hello,</p>

@@ -24,9 +24,9 @@
 	const plantLevelEmoji = getPlantLevelEmoji(plantLevel);
 </script>
 
-<div class="rounded-md bg-[#FFEFE6] pl-3 pr-7 pt-7 pb-9">
+<div class="rounded-md bg-[#FFEFE6] pl-3 pr-7 pt-7 pb-9 md:pl-7">
 	<div class="flex">
-		<div class="mr-4 h-fit rounded-full bg-white p-1">
+		<div class="mr-4 h-fit rounded-full bg-white p-2">
 			{plantLevelEmoji}
 		</div>
 		<div>
@@ -35,7 +35,7 @@
 				{title}
 			</a>
 			<p class="mb-2 text-lg">{excerpt}</p>
-			<img alt={thumbnailAlt} src={thumbnailUrl} />
+			<img class="md:w-full" alt={thumbnailAlt} src={thumbnailUrl} />
 		</div>
 	</div>
 </div>
